@@ -1,0 +1,14 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "declarationDir": "dist",
+    "paths": {
+      "rootConfig/*": ["./src/*"]
+    }
+  },
+  "files": ["src/app1-app1.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"],
+  
+}
